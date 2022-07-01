@@ -1,9 +1,10 @@
+import java.util.ArrayList;
 import java.util.List;
 
 class Doctor {
   private final String name;
   private final String specialty;
-  private List<Patient> patients;
+  private List<Patient> patients = new ArrayList<Patient>();
 
   public Doctor(String name, String specialty) {
       this.name = name;
@@ -17,6 +18,10 @@ class Doctor {
   }
   public List<Patient> getPatients() {
     return patients;
+  }
+  @Override
+  public String toString() {
+    return "Doctor [name=" + name + ", patients=" + patients + ", specialty=" + specialty + "]";
   }
   public void setPatients(List<Patient> patients) {
     this.patients = patients;

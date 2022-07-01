@@ -24,6 +24,11 @@ public class Patient{
     this.name = name;
   }
 
+  @Override
+  public String toString() {
+    return "Name= " + name + ", specialtyNeeded= " + specialtyNeeded + "]";
+  }
+
   public Doctor getDoctor() {
     return doctor;
   }
