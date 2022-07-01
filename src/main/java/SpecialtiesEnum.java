@@ -1,0 +1,7 @@
+public enum SpecialtiesEnum {
+  DERMATOLOGY, 
+  CARDIOLOGY, 
+  NEUROLOGY,
+  RADIOLOGY,
+  PEDIATRICS
+}
