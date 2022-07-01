@@ -6,11 +6,11 @@ class Hospital {
   private List<Doctor> doctors = new ArrayList<Doctor>();
   private List<Patient> patients = new ArrayList<Patient>();
 
-  public List<Patient> getPatients() {
-    return patients;
-  }
   public Hospital(String name) {
     this.name = name;
+  }
+  public List<Patient> getPatients() {
+    return patients;
   }
   public String getName() {
       return name;
