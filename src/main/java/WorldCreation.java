@@ -71,7 +71,7 @@ class WorldCreation implements UserInput{
                 if(currentDoctorSpecialty.equals(specialtyInput)){
                   currentDoctor.addPatient(patient);
                   hospital.addPatient(patient);
-                  patient.setDoctor(currentDoctor);
+                  // patient.setDoctor(currentDoctor);
                   break;
                 }
                }

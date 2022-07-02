@@ -26,7 +26,7 @@ public class Patient{
 
   @Override
   public String toString() {
-    return "Name= " + name + ", specialtyNeeded= " + specialtyNeeded + "]";
+    return "Patient [doctor=" + doctor + ", name=" + name + ", specialtyNeeded=" + specialtyNeeded + "]";
   }
 
   public Doctor getDoctor() {
